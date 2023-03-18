@@ -9,16 +9,13 @@ public class Login {
         String username = String.valueOf(scanner.nextLine());
         System.out.println("Enter password");
         String password = String.valueOf(scanner.nextLine());
-        if (password.equals("sunshine")) {
-            System.out.println("You have sucessfuly logged in!");
-        } else {
-            System.out.println("Incorrect username");
+        if (username.equals("alex") && password.equals("sunshine")) {
+            System.out.println("You have successfully logged in!");
+        } else if (username.equals("emma") && password.equals("haskell")) {
+            System.out.println("You have successfully logged in!");
 
-        }
-        if (username.equals("alex")) {
-            System.out.println("You have sucessfuly logged in");
         } else {
-            System.out.println("Incorrect Passowrd");
+            System.out.println("Incorrect username or password!");
         }
     }
 }
