@@ -10,7 +10,7 @@ public class Statistics {
 
     public void addNumber(int number) {
         this.count++;
-        this.sum = sum + number;
+        this.sum = this.sum + number;
     }
 
     public int getCount() {
