@@ -8,9 +8,10 @@ public class PrintingASpecifiedFile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String fileName;
-
+        
         fileName = scanner.nextLine();
-       findFile(fileName);
+        
+        findFile(fileName);
     }
 
     public static void findFile(String fileName) {
