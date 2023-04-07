@@ -8,6 +8,6 @@ public class MainProgram {
         
         System.out.println(tapeMeasure);
         System.out.println(plaster);
-        System.out.println("Tyre");
+        System.out.println(Tyre);
     }
 }
