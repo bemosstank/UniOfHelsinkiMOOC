@@ -17,7 +17,7 @@ public class Apartment {
     public boolean moreExpensiveThan(Apartment compared){
         int currentApartment = this.squares*this.pricePerSquare;
         int comparedApartment = compared.squares * compared.pricePerSquare;
-          return currentApartment > comparedApartment;
+          return (currentApartment > comparedApartment) ? true : false;
     }
     public boolean largerThan(Apartment compared){
         if(this.squares  < compared.squares){
