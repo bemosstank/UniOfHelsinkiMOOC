@@ -27,11 +27,7 @@ public class IsItInTheFile {
                 }else{
                     System.out.println(row);
                     System.out.println("Not found.");
-                }
                 
-            
-            
-            
         } catch (IOException ex) {
             System.out.println("Reading the file " + file + "failed");
         }
