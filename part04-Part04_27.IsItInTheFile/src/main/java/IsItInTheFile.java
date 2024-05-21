@@ -31,7 +31,5 @@ public class IsItInTheFile {
         } catch (IOException ex) {
             System.out.println("Reading the file " + file + "failed");
         }
-        
-       
     }
 }
